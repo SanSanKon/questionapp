@@ -9,7 +9,7 @@ CREATE TABLE users (
 -- Categories of questions (Childhood, Interests, Vacation)
 CREATE TABLE categories (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL UNIQUE
+    title VARCHAR(100) NOT NULL UNIQUE
 );
 
 -- Questions
