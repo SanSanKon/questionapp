@@ -28,17 +28,17 @@ The application models a service with dating questions: the user can receive ran
 
 ## Setup
 
-1. Create a database:
+1. Create a database:  
 Run in the terminal:
 
    createdb questionapp
 
-2. Run the schema:
+2. Run the schema:  
 Run in the terminal:
 
    psql -d questionapp -f sql/schema.sql
 
-3. Seed with data:
+3. Seed with data:  
 Run in the terminal:
 
    psql -d questionapp -f sql/seed.sql
